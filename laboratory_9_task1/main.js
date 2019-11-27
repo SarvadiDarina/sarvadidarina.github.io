@@ -18,11 +18,8 @@ document.getElementById("button").onclick = function() {
     }
   }
 
-//  document.getElementById("out2").innerHTML = "Збитки: " + "<br>";
-
-  document.getElementById("out2").outerHTML = '<div class="burn">zbitki</div>';
-
-
+ document.getElementById("out2").innerHTML = "Збитки: " + "<br>";
+ 
   var min1 = Math.min.apply(null, array).toFixed(2);
 
   for (find in array) {
