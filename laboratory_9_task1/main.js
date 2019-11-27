@@ -29,5 +29,5 @@ document.getElementById("button").onclick = function() {
   }
   var year = year_min[yearmin];
 
-//  document.getElementById("out2").innerHTML += year + " рік:  " + min1 + "<br>";
+ document.getElementById("out2").innerHTML += year + " рік:  " + min1 + "<br>";
 };
