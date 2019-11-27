@@ -1,2 +1,2 @@
-# sarvadidarina.github.io
+# Сарваді Дарина (Прикладна Математика) 1 курс sarvadidarina.github.io
 Сайт Лабораторних робіт
