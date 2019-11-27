@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Лаб.9 №1 вар.4</title>
+</head>
+
+<body>
+  <h3>
+    Задача 1. Нехай прибуток фірми обчислюється за формулою. p_k=v*(100
+    sin⁡(k-2000)+10v), де k – рік, v–номер варіанту. Вивести таблицю прибутків
+    фірми за період (роки вказує користувач).
+  </h3>
+  <p>
+    4. Обчислити суму прибутків у межах [100, 300). У якому році фірма зазнала
+    найбільших збитків?
+  </p>
+
+  <div class="form">
+    <label for="year_start">Період рік початок</label><br />
+    <input id="year_start" name="year_start" value="2000" /><br />
+    <p>-----------------------------------------------</p>
+    <label for="year_end">Період рік кінцевий</label><br />
+    <input id="year_end" name="year_end" value="2020" /><br />
+    <p>-----------------------------------------------</p>
+    <label for="variant">Варіант</label><br />
+    <input id="variant" name="variant" value="4" /><br />
+    <p>-----------------------------------------------</p>
+    <input id="button" type="button" value="Обчислити" /><br />
+  </div>
+
+  <p id="out"></p>
+  <br />
+  <p id="out2"></p>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
